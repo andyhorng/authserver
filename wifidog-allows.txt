@@ -1,0 +1,193 @@
+FirewallRuleSet global {
+
+    # facebook ip range
+    FirewallRule allow to 204.15.20.0/22
+    FirewallRule allow to 69.63.176.0/20
+    FirewallRule allow to 66.220.144.0/20
+    FirewallRule allow to 66.220.144.0/21
+    FirewallRule allow to 69.63.184.0/21
+    FirewallRule allow to 69.63.176.0/21
+    FirewallRule allow to 74.119.76.0/22
+    FirewallRule allow to 69.171.255.0/24
+    FirewallRule allow to 173.252.64.0/18
+    FirewallRule allow to 69.171.224.0/19
+    FirewallRule allow to 69.171.224.0/20
+    FirewallRule allow to 103.4.96.0/22
+    FirewallRule allow to 69.63.176.0/24
+    FirewallRule allow to 173.252.64.0/19
+    FirewallRule allow to 173.252.70.0/24
+    FirewallRule allow to 31.13.64.0/18
+    FirewallRule allow to 31.13.24.0/21
+    FirewallRule allow to 66.220.152.0/21
+    FirewallRule allow to 66.220.159.0/24
+    FirewallRule allow to 69.171.239.0/24
+    FirewallRule allow to 69.171.240.0/20
+    FirewallRule allow to 31.13.64.0/19
+    FirewallRule allow to 31.13.64.0/24
+    FirewallRule allow to 31.13.65.0/24
+    FirewallRule allow to 31.13.67.0/24
+    FirewallRule allow to 31.13.68.0/24
+    FirewallRule allow to 31.13.69.0/24
+    FirewallRule allow to 31.13.70.0/24
+    FirewallRule allow to 31.13.71.0/24
+    FirewallRule allow to 31.13.72.0/24
+    FirewallRule allow to 31.13.73.0/24
+    FirewallRule allow to 31.13.74.0/24
+    FirewallRule allow to 31.13.75.0/24
+    FirewallRule allow to 31.13.76.0/24
+    FirewallRule allow to 31.13.77.0/24
+    FirewallRule allow to 31.13.96.0/19
+    FirewallRule allow to 31.13.66.0/24
+    FirewallRule allow to 173.252.96.0/19
+    FirewallRule allow to 69.63.178.0/24
+    FirewallRule allow to 31.13.78.0/24
+    FirewallRule allow to 31.13.79.0/24
+    FirewallRule allow to 31.13.80.0/24
+    FirewallRule allow to 31.13.82.0/24
+    FirewallRule allow to 31.13.83.0/24
+    FirewallRule allow to 31.13.84.0/24
+    FirewallRule allow to 31.13.85.0/24
+    FirewallRule allow to 31.13.86.0/24
+    FirewallRule allow to 31.13.87.0/24
+    FirewallRule allow to 31.13.88.0/24
+    FirewallRule allow to 31.13.89.0/24
+    FirewallRule allow to 31.13.90.0/24
+    FirewallRule allow to 31.13.91.0/24
+    FirewallRule allow to 31.13.92.0/24
+    FirewallRule allow to 31.13.93.0/24
+    FirewallRule allow to 31.13.94.0/24
+    FirewallRule allow to 31.13.95.0/24
+    FirewallRule allow to 69.171.253.0/24
+    FirewallRule allow to 69.63.186.0/24
+    FirewallRule allow to 31.13.81.0/24
+    FirewallRule allow to 179.60.192.0/22
+    FirewallRule allow to 179.60.192.0/24
+    FirewallRule allow to 179.60.193.0/24
+    FirewallRule allow to 179.60.194.0/24
+    FirewallRule allow to 179.60.195.0/24
+    FirewallRule allow to 185.60.216.0/22
+    FirewallRule allow to 45.64.40.0/22
+    FirewallRule allow to 185.60.216.0/24
+    FirewallRule allow to 185.60.217.0/24
+    FirewallRule allow to 185.60.218.0/24
+    FirewallRule allow to 185.60.219.0/24
+    FirewallRule allow to 129.134.0.0/16
+    FirewallRule allow to 157.240.0.0/16
+    FirewallRule allow to 204.15.20.0/22
+    FirewallRule allow to 69.63.176.0/20
+    FirewallRule allow to 69.63.176.0/21
+    FirewallRule allow to 69.63.184.0/21
+    FirewallRule allow to 66.220.144.0/20
+    FirewallRule allow to 69.63.176.0/20
+    FirewallRule allow to 139.175.236.0/24
+
+    # www.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # m.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # connect.facebook.net
+    FirewallRule allow to 23.48.140.135/32
+    # business.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # api.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # api-read.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # graph.facebook.com
+    FirewallRule allow to 31.13.70.1/32
+    # static.ak.fbcdn.net
+    FirewallRule allow to 210.61.248.209/32
+    FirewallRule allow to 210.61.248.178/32
+    # fbstatic-a.akamaihd.net
+    FirewallRule allow to 210.61.248.195/32
+    FirewallRule allow to 210.61.248.177/32
+    # static.ak.facebook.com
+    FirewallRule allow to 210.61.248.178/32
+    FirewallRule allow to 210.61.248.209/32
+    # s-static.ak.facebook.com
+    FirewallRule allow to 23.53.74.237/32
+    # facebook.com
+    FirewallRule allow to 173.252.120.6/32
+    # fbstatic-a.akamaihd.net
+    FirewallRule allow to 210.61.248.177/32
+    FirewallRule allow to 210.61.248.195/32
+    # fbcdn-profile-a.akamaihd.net
+    FirewallRule allow to 203.69.81.89/32
+    FirewallRule allow to 203.69.81.67/32
+    FirewallRule allow to 203.69.81.81/32
+    FirewallRule allow to 203.69.81.51/32
+    FirewallRule allow to 61.220.62.161/32
+    FirewallRule allow to 203.69.81.97/32
+    FirewallRule allow to 61.220.62.167/32
+    FirewallRule allow to 203.69.81.64/32
+    FirewallRule allow to 203.69.81.59/32
+    # fbcdn-sphotos-a-a.akamaihd.net
+    FirewallRule allow to 184.51.200.10/32
+    FirewallRule allow to 96.6.122.88/32
+    FirewallRule allow to 184.51.200.49/32
+    FirewallRule allow to 96.6.122.105/32
+    FirewallRule allow to 96.6.122.106/32
+    FirewallRule allow to 184.51.200.19/32
+    FirewallRule allow to 96.6.122.91/32
+    FirewallRule allow to 184.51.200.33/32
+    FirewallRule allow to 96.6.122.112/32
+    # fbcdn-creative-a.akamaihd.net
+    FirewallRule allow to 210.61.248.168/32
+    FirewallRule allow to 210.61.248.171/32
+    # fbexternal-a.akamaihd.net
+    FirewallRule allow to 210.61.248.210/32
+    FirewallRule allow to 210.61.248.195/32
+    # fbcdn-sphotos-b-a.akamaihd.net
+    FirewallRule allow to 96.6.122.83/32
+    FirewallRule allow to 184.51.200.8/32
+    FirewallRule allow to 96.6.122.80/32
+    FirewallRule allow to 96.6.122.107/32
+    FirewallRule allow to 184.51.200.11/32
+    FirewallRule allow to 96.6.122.96/32
+    FirewallRule allow to 184.51.200.16/32
+    FirewallRule allow to 96.6.122.88/32
+    FirewallRule allow to 184.51.200.19/32
+    # fbcdn-sphotos-c-a.akamaihd.net
+    FirewallRule allow to 184.51.200.33/32
+    FirewallRule allow to 184.51.200.34/32
+    FirewallRule allow to 184.51.200.41/32
+    FirewallRule allow to 184.51.200.56/32
+    FirewallRule allow to 184.51.200.57/32
+    FirewallRule allow to 184.51.200.43/32
+    FirewallRule allow to 184.51.200.59/32
+    FirewallRule allow to 184.51.200.50/32
+    FirewallRule allow to 184.51.200.48/32
+    # fbcdn-sphotos-d-a.akamaihd.net
+    FirewallRule allow to 96.6.122.113/32
+    FirewallRule allow to 96.6.122.75/32
+    FirewallRule allow to 184.51.200.9/32
+    FirewallRule allow to 96.6.122.99/32
+    FirewallRule allow to 184.51.200.42/32
+    FirewallRule allow to 96.6.122.90/32
+    FirewallRule allow to 96.6.122.83/32
+    FirewallRule allow to 184.51.200.51/32
+    FirewallRule allow to 184.51.200.24/32
+    # fbcdn-sphotos-e-a.akamaihd.net
+    FirewallRule allow to 184.27.178.59/32
+    FirewallRule allow to 184.27.178.42/32
+    FirewallRule allow to 184.27.178.66/32
+    # fbcdn-sphotos-f-a.akamaihd.net
+    FirewallRule allow to 184.27.178.32/32
+    FirewallRule allow to 184.27.178.24/32
+    FirewallRule allow to 184.27.178.51/32
+    # fbcdn-sphotos-g-a.akamaihd.net
+    FirewallRule allow to 23.59.190.57/32
+    FirewallRule allow to 23.59.190.35/32
+    FirewallRule allow to 23.59.190.10/32
+    # fbcdn-sphotos-h-a.akamaihd.net
+    FirewallRule allow to 23.59.190.25/32
+    FirewallRule allow to 23.59.190.56/32
+    FirewallRule allow to 23.59.190.27/32
+    FirewallRule allow to 23.59.190.43/32
+    # ngrok.io
+    FirewallRule allow to 198.58.102.42/32
+    FirewallRule allow to 198.58.107.51/32
+    # www.dailycred.com
+    FirewallRule allow to 54.225.76.118/32
+    FirewallRule allow to 107.20.224.174/32
+}
