@@ -1,0 +1,8 @@
+dailycred:
+  secret: 
+  client_id: 
+
+wifidog:
+  gateway_url: http://192.168.1.1:2060
+
+debug: True
