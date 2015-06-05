@@ -52,4 +52,4 @@ def portal():
     return "Welcome"
 
 if __name__ == '__main__':
-    app.run(debug=config['debug'])
+    app.run(debug=config['debug'], port=9666)
