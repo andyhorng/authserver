@@ -4,5 +4,6 @@ dailycred:
 
 wifidog:
   gateway_url: http://192.168.1.1:2060
+  landing_page_url: http://www.google.com
 
 debug: True

@@ -9,6 +9,7 @@ dailycred = DailyCred(config['dailycred']['client_id'],
                       config['dailycred']['secret'])
 
 GATEWAY_URL = config['wifidog']['gateway_url']
+LANDING_PAGE_URL = config['wifidog']['landing_page_url']
 
 
 @app.route('/ping/')
@@ -49,7 +50,7 @@ def auth():
 
 @app.route('/portal/')
 def portal():
-    return "Welcome"
+    return redirect(LANDING_PAGE_URL)
 
 if __name__ == '__main__':
-    app.run(debug=config['debug'], port=9666)
+    app.run(debug=config['debug'], port=9666, host='0.0.0.0')
