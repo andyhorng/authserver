@@ -3,6 +3,7 @@ dailycred:
   client_id: 
 
 wifidog:
+  login_url: http://login.example.com
   gateway_url: http://192.168.1.1:2060
   landing_page_url: http://www.google.com
 

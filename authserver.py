@@ -8,6 +8,7 @@ config = yaml.load(open('./config.yaml'))
 dailycred = DailyCred(config['dailycred']['client_id'],
                       config['dailycred']['secret'])
 
+LOGIN_URL = config['wifidog']['login_url']
 GATEWAY_URL = config['wifidog']['gateway_url']
 LANDING_PAGE_URL = config['wifidog']['landing_page_url']
 
@@ -20,7 +21,7 @@ def ping():
 @app.route('/login/')
 def login():
     # redirect to dailycred
-    return redirect(dailycred.get_auth_url())
+    return redirect(LOGIN_URL)
 
 
 @app.route('/success_login/')
